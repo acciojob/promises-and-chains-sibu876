@@ -14,9 +14,9 @@ form.addEventListener("submit",(e) =>{
 	const votePromise = new Promise((resolve,reject)=>{
 		setTimeout(() =>{
 			if(Number(age) > 18){
-				resolve(`Welcome, ${name}. You can vote`);
+				resolve(`Welcome, ${name}. You can vote.`);
 			}else{
-				reject(`Oh sorry ${name}. You aren't old enough`);
+				reject(`Oh sorry ${name}. You aren't old enough.`);
 			}
 		},4000);
 	});
